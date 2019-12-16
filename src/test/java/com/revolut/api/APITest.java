@@ -59,13 +59,13 @@ public class APITest {
     @Test
     public void testAmountTransfer() throws SQLException, IOException {
 
-        Account a1 = new Account(2L, new BigDecimal("1000"));
+        Account a1 = new Account(8L, new BigDecimal("1000"));
         dao.create(a1);
 
-        Account a2 = new Account(3L, new BigDecimal("2000"));
+        Account a2 = new Account(9L, new BigDecimal("2000"));
         dao.create(a2);
 
-        String payload = "{\"amount\":10,\"from\":2,\"to\":3}";
+        String payload = "{\"amount\":10,\"from\":8,\"to\":9}";
 
         RequestBody body = RequestBody.create(
                 MediaType.parse("application/json; charset=utf-8"), payload);
