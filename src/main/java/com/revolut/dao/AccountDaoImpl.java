@@ -25,6 +25,8 @@ public class AccountDaoImpl implements AccountDao{
 
     public Account create(Account account) throws SQLException {
         try{
+            System.out.println(account);
+            System.out.println(account.getAccountNumber());
             Long accountNumber = account.getAccountNumber();
             String balance = account.getBalance().toPlainString();
 
