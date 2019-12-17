@@ -1,5 +1,6 @@
 package com.revolut.dao;
 
+import com.revolut.exception.AccountExistsException;
 import com.revolut.exception.AccountNotExistsException;
 import com.revolut.exception.InsufficientBalanceException;
 import com.revolut.exception.NegativeCreditException;
@@ -23,18 +24,21 @@ public class AccountDaoImpl implements AccountDao{
         conn = H2ConnectionManager.getInstance().getDbConnection();
     }
 
-    public Account create(Account account) throws SQLException {
+    public Account create(Account account) throws SQLException, AccountExistsException {
         try{
-            System.out.println(account);
-            System.out.println(account.getAccountNumber());
             Long accountNumber = account.getAccountNumber();
             String balance = account.getBalance().toPlainString();
 
-            Statement stmt = conn.createStatement();
-            String SQL = "INSERT INTO ACCOUNTS VALUES("+accountNumber+","+balance+")";
-            stmt.executeUpdate(SQL);
+            Account testAcc = get(accountNumber);
 
-            stmt.close();
+            if(testAcc!=null){
+                throw new AccountExistsException("Account already exists.");
+            }else{
+                Statement stmt = conn.createStatement();
+                String SQL = "INSERT INTO ACCOUNTS VALUES("+accountNumber+","+balance+")";
+                stmt.executeUpdate(SQL);
+                stmt.close();
+            }
         }catch (SQLException e) {
             throw e;
         }

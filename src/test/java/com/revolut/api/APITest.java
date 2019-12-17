@@ -27,6 +27,12 @@ public class APITest {
         server = new RevolutServer();
         server.start();
         dao = new AccountDaoImpl();
+
+        Account a1 = new Account(8L, new BigDecimal("1000"));
+        dao.create(a1);
+
+        Account a2 = new Account(9L, new BigDecimal("2000"));
+        dao.create(a2);
     }
 
     @AfterClass
@@ -59,12 +65,6 @@ public class APITest {
     @Test
     public void testAmountTransfer() throws SQLException, IOException {
 
-        Account a1 = new Account(8L, new BigDecimal("1000"));
-        dao.create(a1);
-
-        Account a2 = new Account(9L, new BigDecimal("2000"));
-        dao.create(a2);
-
         String payload = "{\"amount\":10,\"from\":8,\"to\":9}";
 
         RequestBody body = RequestBody.create(
@@ -79,6 +79,47 @@ public class APITest {
         Call call = client.newCall(request);
 
         Response response = call.execute();
-        System.out.println(response.body().string());
+        assertEquals("Funds transferred successfully.", response.body().string());
+        assertEquals("200", response.headers().get(Headers.STATUS_STRING));
+    }
+
+    @Test
+    public void testNegativeCreditTransfer() throws IOException {
+        String payload = "{\"amount\":-5000,\"from\":8,\"to\":9}";
+
+        RequestBody body = RequestBody.create(
+                MediaType.parse("application/json; charset=utf-8"), payload);
+
+        Request request = new Request.Builder()
+                .url(BASE_URL+"/v1/revolut/account/transfer")
+                .post(body)
+                .build();
+
+        OkHttpClient client = new OkHttpClient();
+        Call call = client.newCall(request);
+
+        Response response = call.execute();
+        assertEquals("Negative credit not allowed.", response.body().string());
+        assertEquals("403", response.headers().get(Headers.STATUS_STRING));
+    }
+
+    @Test
+    public void testInsufficientFundTransfer() throws IOException {
+        String payload = "{\"amount\":10000,\"from\":8,\"to\":9}";
+
+        RequestBody body = RequestBody.create(
+                MediaType.parse("application/json; charset=utf-8"), payload);
+
+        Request request = new Request.Builder()
+                .url(BASE_URL+"/v1/revolut/account/transfer")
+                .post(body)
+                .build();
+
+        OkHttpClient client = new OkHttpClient();
+        Call call = client.newCall(request);
+
+        Response response = call.execute();
+        assertEquals("Insufficient funds.", response.body().string());
+        assertEquals("403", response.headers().get(Headers.STATUS_STRING));
     }
 }

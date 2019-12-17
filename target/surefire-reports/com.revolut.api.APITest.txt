@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.revolut.dao.AccountDaoTest
+Test set: com.revolut.api.APITest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.617 sec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.405 sec

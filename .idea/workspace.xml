@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3e1dfd3-aa9b-412e-9c8b-9afc5a879aed" name="Default Changelist" comment="" />
+    <list default="true" id="d3e1dfd3-aa9b-412e-9c8b-9afc5a879aed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revolut/exception/AccountExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revolut/controller/RevolutAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revolut/controller/RevolutAccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revolut/dao/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revolut/dao/AccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revolut/dao/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revolut/dao/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revolut/helper/RevolutServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revolut/helper/RevolutServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revolut/request/AccountCreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revolut/request/AccountCreateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/revolut/api/APITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/revolut/api/APITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/revolut/dao/AccountDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/revolut/dao/AccountDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revolut/controller/RevolutAccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revolut/controller/RevolutAccountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revolut/dao/AccountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revolut/dao/AccountDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revolut/dao/AccountDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revolut/dao/AccountDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revolut/helper/RevolutServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revolut/helper/RevolutServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revolut/request/AccountCreateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revolut/request/AccountCreateRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revolut/request/FundTransferRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revolut/request/FundTransferRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/revolut-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/revolut-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.revolut.dao.AccountDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.revolut.dao.AccountDaoTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.revolut.dao.AccountDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.revolut.dao.AccountDaoTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/revolut/dao/AccountDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/revolut/dao/AccountDaoTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,25 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/revolut/dao/AccountDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/helper/H2ConnectionManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="968">
+              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,52 +55,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/model/Account.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/exception/NegativeCreditException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1195#1196#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="220">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/dao/AccountDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/request/AccountCreateRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-195">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/controller/RevolutAccountController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/revolut/api/APITest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            <state>
+              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/helper/RevolutServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1186#1187#0" expanded="true" />
-                <element signature="e#1215#1216#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/dao/AccountDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="81" column="27" lean-forward="true" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+            <state relative-caret-position="244">
+              <caret line="34" column="48" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#563#564#0" expanded="true" />
@@ -108,9 +99,56 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/helper/RevolutServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1804#1805#0" expanded="true" />
+                <element signature="e#1855#1856#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/controller/RevolutAccountController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1078">
+              <caret line="53" column="66" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="22">
+                <caret line="1" selection-start-line="1" selection-end-line="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/RevolutApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
+            <state relative-caret-position="88">
               <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
             </state>
           </provider>
@@ -126,6 +164,15 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>code</find>
+      <find>status</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -134,16 +181,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/revolut/exception/BankingException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/revolut/exception/AccountNotExistsException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/revolut/dao/AccountDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/revolut/request/FundTransferRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/revolut/request/AccountCreateRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/revolut/controller/RevolutAccountController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/revolut/RevolutApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/revolut/helper/RevolutServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/revolut/helper/H2ConnectionManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/revolut/dao/AccountDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/revolut/model/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/revolut/exception/BadRequestException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/revolut/helper/SimpleServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/revolut/request/FundTransferRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/revolut/helper/RevolutServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/revolut/exception/AccountExistsException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/revolut/dao/AccountDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/revolut/dao/AccountDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/revolut/controller/RevolutAccountController.java" />
+        <option value="$PROJECT_DIR$/README.MD" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/revolut/request/AccountCreateRequest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/revolut/api/APITest.java" />
       </list>
     </option>
   </component>
@@ -152,11 +204,13 @@
     <option name="width" value="1280" />
     <option name="height" value="727" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -198,64 +252,30 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="revolut" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revolut" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revolut" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="revolut" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revolut" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revolut" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="revolut" type="462c0819:PsiDirectoryNode" />
               <item name="helper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="revolut" type="b2602c69:ProjectViewProjectNode" />
               <item name="revolut" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revolut" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revolut" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revolut" type="b2602c69:ProjectViewProjectNode" />
               <item name="revolut" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="revolut" type="b2602c69:ProjectViewProjectNode" />
               <item name="revolut" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="revolut" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -278,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountDaoTest">
+  <component name="RunManager" selected="JUnit.APITest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -287,6 +307,73 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="revolut" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revolut.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.revolut.api" />
+      <option name="MAIN_CLASS_NAME" value="com.revolut.api.APITest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITest.shouldNotCreateAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="revolut" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revolut.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.revolut.api" />
+      <option name="MAIN_CLASS_NAME" value="com.revolut.api.APITest" />
+      <option name="METHOD_NAME" value="shouldNotCreateAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITest.testAmountTransfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="revolut" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revolut.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.revolut.api" />
+      <option name="MAIN_CLASS_NAME" value="com.revolut.api.APITest" />
+      <option name="METHOD_NAME" value="testAmountTransfer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITest.testNegativeCreditTransfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="revolut" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revolut.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.revolut.api" />
+      <option name="MAIN_CLASS_NAME" value="com.revolut.api.APITest" />
+      <option name="METHOD_NAME" value="testNegativeCreditTransfer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -302,74 +389,6 @@
       <option name="PACKAGE_NAME" value="com.revolut.dao" />
       <option name="MAIN_CLASS_NAME" value="com.revolut.dao.AccountDaoTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountDaoTest.testAccountNotExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="revolut" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.revolut.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.revolut.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.revolut.dao.AccountDaoTest" />
-      <option name="METHOD_NAME" value="testAccountNotExists" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountDaoTest.testFundTransfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="revolut" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.revolut.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.revolut.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.revolut.dao.AccountDaoTest" />
-      <option name="METHOD_NAME" value="testFundTransfer" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountDaoTest.testInsufficientFunds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="revolut" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.revolut.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.revolut.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.revolut.dao.AccountDaoTest" />
-      <option name="METHOD_NAME" value="testInsufficientFunds" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountDaoTest.testNegativeCredit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="revolut" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.revolut.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.revolut.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.revolut.dao.AccountDaoTest" />
-      <option name="METHOD_NAME" value="testNegativeCredit" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -402,11 +421,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.APITest" />
+        <item itemvalue="JUnit.APITest.shouldNotCreateAccount" />
         <item itemvalue="JUnit.AccountDaoTest" />
-        <item itemvalue="JUnit.AccountDaoTest.testAccountNotExists" />
-        <item itemvalue="JUnit.AccountDaoTest.testNegativeCredit" />
-        <item itemvalue="JUnit.AccountDaoTest.testInsufficientFunds" />
-        <item itemvalue="JUnit.AccountDaoTest.testFundTransfer" />
+        <item itemvalue="JUnit.APITest.testNegativeCreditTransfer" />
+        <item itemvalue="JUnit.APITest.testAmountTransfer" />
       </list>
     </recent_temporary>
   </component>
@@ -424,59 +443,68 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountDaoTest - 2019.12.15 at 22h 37m 55s.xml">
+    <history-entry file="AccountDaoTest - 2019.12.17 at 08h 01m 29s.xml">
       <configuration name="AccountDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountDaoTest - 2019.12.15 at 22h 38m 50s.xml">
+    <history-entry file="AccountDaoTest - 2019.12.17 at 08h 02m 52s.xml">
       <configuration name="AccountDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountDaoTest_testCreateAccount - 2019.12.15 at 22h 39m 16s.xml">
-      <configuration name="AccountDaoTest.testCreateAccount" configurationId="JUnit" />
+    <history-entry file="APITest - 2019.12.17 at 08h 03m 18s.xml">
+      <configuration name="APITest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountDaoTest_testCreateAccount - 2019.12.15 at 22h 39m 42s.xml">
-      <configuration name="AccountDaoTest.testCreateAccount" configurationId="JUnit" />
+    <history-entry file="APITest - 2019.12.17 at 08h 04m 22s.xml">
+      <configuration name="APITest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountDaoTest_testFundTransfer - 2019.12.15 at 22h 45m 16s.xml">
-      <configuration name="AccountDaoTest.testFundTransfer" configurationId="JUnit" />
+    <history-entry file="APITest - 2019.12.17 at 08h 07m 18s.xml">
+      <configuration name="APITest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountDaoTest_testFundTransfer - 2019.12.15 at 22h 47m 37s.xml">
-      <configuration name="AccountDaoTest.testFundTransfer" configurationId="JUnit" />
+    <history-entry file="APITest - 2019.12.17 at 08h 08m 11s.xml">
+      <configuration name="APITest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountDaoTest_testFundTransfer - 2019.12.15 at 22h 48m 17s.xml">
-      <configuration name="AccountDaoTest.testFundTransfer" configurationId="JUnit" />
+    <history-entry file="APITest_shouldNotCreateAccount - 2019.12.17 at 09h 02m 06s.xml">
+      <configuration name="APITest.shouldNotCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountDaoTest_testInsufficientFunds - 2019.12.15 at 22h 51m 32s.xml">
-      <configuration name="AccountDaoTest.testInsufficientFunds" configurationId="JUnit" />
+    <history-entry file="APITest_shouldNotCreateAccount - 2019.12.17 at 09h 02m 30s.xml">
+      <configuration name="APITest.shouldNotCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountDaoTest_testInsufficientFunds - 2019.12.15 at 22h 53m 26s.xml">
-      <configuration name="AccountDaoTest.testInsufficientFunds" configurationId="JUnit" />
+    <history-entry file="APITest_shouldNotCreateAccount - 2019.12.17 at 09h 02m 51s.xml">
+      <configuration name="APITest.shouldNotCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountDaoTest_testNegativeCredit - 2019.12.15 at 22h 55m 33s.xml">
-      <configuration name="AccountDaoTest.testNegativeCredit" configurationId="JUnit" />
+    <history-entry file="APITest - 2019.12.17 at 09h 03m 02s.xml">
+      <configuration name="APITest" configurationId="JUnit" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32913387" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.47559056" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33228347" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4983845" weight="0.57795274" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5016155" side_tool="true" weight="0.5102362" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32913387" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49757674" weight="0.36535433" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5024233" side_tool="true" weight="0.57795274" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32913387" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32913387" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -487,7 +515,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -496,14 +524,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5102362" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919224" visible="true" weight="0.5102362" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="8" sideWeight="0.50080776" side_tool="true" visible="true" weight="0.5102362" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49757674" weight="0.33543307" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5024233" side_tool="true" weight="0.57795274" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32913387" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -535,13 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/exception/NegativeCreditException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/exception/AccountNotExistsException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -556,64 +578,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/helper/H2ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/undertow/undertow-core/2.0.1.Final/undertow-core-2.0.1.Final.jar!/io/undertow/Handlers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/undertow/undertow-core/2.0.1.Final/undertow-core-2.0.1.Final.jar!/io/undertow/util/Headers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="89" column="50" lean-forward="true" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/request/FundTransferRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        <state relative-caret-position="462">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/request/AccountCreateRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/exception/BadRequestException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/helper/SimpleServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/RevolutApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/helper/RevolutServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/controller/RevolutAccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="110">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -622,20 +631,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/model/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        <state relative-caret-position="22">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/exception/AccountExistsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/dao/AccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/exception/NegativeCreditException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/revolut/dao/AccountDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/RevolutApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/controller/RevolutAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="53" column="66" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/dao/AccountDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="81" column="27" lean-forward="true" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+        <state relative-caret-position="244">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#563#564#0" expanded="true" />
@@ -644,34 +725,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/helper/H2ConnectionManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/helper/RevolutServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="396">
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1804#1805#0" expanded="true" />
+            <element signature="e#1855#1856#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/dao/AccountDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/revolut/request/AccountCreateRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-195">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/revolut/dao/AccountDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/revolut/api/APITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+        <state>
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
           </folding>
         </state>
       </provider>

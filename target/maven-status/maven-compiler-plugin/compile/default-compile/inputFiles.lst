@@ -3,6 +3,8 @@
 /Users/joyghosh/Documents/revolut/src/main/java/com/revolut/exception/BankingException.java
 /Users/joyghosh/Documents/revolut/src/main/java/com/revolut/helper/H2ConnectionManager.java
 /Users/joyghosh/Documents/revolut/src/main/java/com/revolut/helper/RevolutServer.java
+/Users/joyghosh/Documents/revolut/src/main/java/com/revolut/helper/SimpleServer.java
+/Users/joyghosh/Documents/revolut/src/main/java/com/revolut/exception/BadRequestException.java
 /Users/joyghosh/Documents/revolut/src/main/java/com/revolut/exception/AccountNotExistsException.java
 /Users/joyghosh/Documents/revolut/src/main/java/com/revolut/model/Account.java
 /Users/joyghosh/Documents/revolut/src/main/java/com/revolut/exception/InsufficientBalanceException.java
@@ -11,3 +13,4 @@
 /Users/joyghosh/Documents/revolut/src/main/java/com/revolut/request/FundTransferRequest.java
 /Users/joyghosh/Documents/revolut/src/main/java/com/revolut/exception/NegativeCreditException.java
 /Users/joyghosh/Documents/revolut/src/main/java/com/revolut/dao/AccountDao.java
+/Users/joyghosh/Documents/revolut/src/main/java/com/revolut/exception/AccountExistsException.java

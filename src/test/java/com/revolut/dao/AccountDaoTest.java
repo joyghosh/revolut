@@ -1,5 +1,6 @@
 package com.revolut.dao;
 
+import com.revolut.exception.AccountExistsException;
 import com.revolut.exception.AccountNotExistsException;
 import com.revolut.exception.InsufficientBalanceException;
 import com.revolut.exception.NegativeCreditException;
@@ -32,7 +33,7 @@ public class AccountDaoTest {
     }
 
     @Test
-    public void testCreateAccount() throws SQLException {
+    public void testCreateAccount() throws SQLException, AccountExistsException {
         Account a = new Account(1L, new BigDecimal("1000"));
         dao.create(a);
         Account result = dao.get(1L);
@@ -40,8 +41,14 @@ public class AccountDaoTest {
         assertEquals(BigDecimal.valueOf(1000), result.getBalance());
     }
 
+    @Test(expected = AccountExistsException.class)
+    public void testAccountExists() throws SQLException, AccountExistsException {
+        Account a = new Account(1L, new BigDecimal("1000"));
+        dao.create(a);
+    }
+
     @Test
-    public void testFundTransfer() throws SQLException, AccountNotExistsException, NegativeCreditException, InsufficientBalanceException {
+    public void testFundTransfer() throws SQLException, AccountNotExistsException, NegativeCreditException, InsufficientBalanceException, AccountExistsException {
         Account a1 = new Account(2L, new BigDecimal("1000"));
         dao.create(a1);
 
@@ -58,7 +65,7 @@ public class AccountDaoTest {
     }
 
     @Test(expected = InsufficientBalanceException.class)
-    public void testInsufficientFunds() throws SQLException, AccountNotExistsException, NegativeCreditException, InsufficientBalanceException {
+    public void testInsufficientFunds() throws SQLException, AccountNotExistsException, NegativeCreditException, InsufficientBalanceException, AccountExistsException {
         Account a1 = new Account(4L, new BigDecimal("1000"));
         dao.create(a1);
 
@@ -69,7 +76,7 @@ public class AccountDaoTest {
     }
 
     @Test(expected = NegativeCreditException.class)
-    public void testNegativeCredit() throws SQLException, AccountNotExistsException, NegativeCreditException, InsufficientBalanceException {
+    public void testNegativeCredit() throws SQLException, AccountNotExistsException, NegativeCreditException, InsufficientBalanceException, AccountExistsException {
         Account a1 = new Account(6L, new BigDecimal("1000"));
         dao.create(a1);
 

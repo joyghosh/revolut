@@ -11,3 +11,6 @@ com/revolut/exception/BankingException.class
 com/revolut/request/AccountCreateRequest.class
 com/revolut/dao/AccountDao.class
 com/revolut/controller/RevolutAccountController.class
+com/revolut/exception/BadRequestException.class
+com/revolut/exception/AccountExistsException.class
+com/revolut/helper/SimpleServer.class

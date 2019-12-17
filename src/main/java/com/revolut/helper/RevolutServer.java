@@ -24,20 +24,7 @@ public class RevolutServer {
         try{
             System.out.println("Revolut server started.");
             Undertow.Builder undertow = server.getUndertow();
-//            server = Undertow.builder()
-//                    .addHttpListener(PORT,HOST)
-//                    .setHandler(Handlers.exceptionHandler(
-//                            Handlers.path()
-//                            .addPrefixPath("/v1/revolut/account",
-//                                    Handlers.routing()
-//                                    .post("", controller::createAccount))
-//                            .addPrefixPath("/v1/revolut/account/transfer",
-//                                    Handlers.routing()
-//                                    .post("", controller::transfer))
-//                    ).addExceptionHandler(BankingException.class))
-//                    .build();
-
-            server.start();
+            undertow.build().start();
         }catch(Exception e){
             System.out.println(e.getMessage());
         }

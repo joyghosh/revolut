@@ -47,19 +47,6 @@ public class AccountCreateRequest {
         StringBuilder builder = new StringBuilder();
         exchange.getRequestReceiver().receiveFullString((ex, data) -> builder.append(data));
 
-//        try(InputStream inputStream = is){
-//
-//            int line;
-//            while( ( line = inputStream.read() ) != -1 ) {
-//                builder.append( line );
-//                System.out.print((char)line);
-//            }
-//        }
-
-        System.out.println(builder.toString());
         return builder.toString();
-
-//        BufferedReader br = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
-//        return br.lines().collect(Collectors.joining(System.lineSeparator()));
     }
 }
